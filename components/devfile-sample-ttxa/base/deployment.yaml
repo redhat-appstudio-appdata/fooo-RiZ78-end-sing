@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ttxa
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:jrichter-tenant-devfile-sample-ttxa
+      - image: quay.io/redhat-appstudio/user-workload@sha256:205c8a448bedc76e641fa4b1fb0b2b85333c3cfcc763f9ec767e2f99629ec3f3
         name: my-nodejs
         ports:
         - containerPort: 3001
